@@ -33,7 +33,7 @@ const iitrparts = 'https://drive.google.com/drive/folders/1Fj-SPUztpuraXlCNruzjT
 client.once('ready', () => {
 	console.log('Ready!');
 });
-client.login('NzE3NzY3NjM1OTY1NTc1MjM4.Xtfl9A.emhmmrzpNJRZ1wlYZFlaHkugQeA');
+client.login(TOKEN);
 // ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 client.on('message', message => {
 	if (message.content.includes('!convert')) {
